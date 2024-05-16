@@ -1,0 +1,58 @@
+.header__logo {
+  grid-area: logo;
+  max-width: 200px;
+  max-height: 100px;
+  margin: 20px 20px 0 20px;
+}
+.header {
+  display: grid;
+  grid-template-areas:
+    "logo . bola"
+    "linea linea linea";
+  grid-template-rows: min-content min-content min-content;
+  grid-template-columns: min-content min-content min-content;
+  gap: 10px;
+
+  background-color: black;
+}
+.header__line {
+  grid-area: linea;
+  width: 100%;
+  border-top: 2px solid #ff0000;
+}
+
+.header__right {
+  margin: 20px 20px 0 20px;
+  grid-area: bola;
+  max-width: 200px;
+  max-height: 100px;
+  position: absolute;
+  left: 10px;
+  animation: rotateAnimation 2s linear infinite,
+    moveAnimation 3s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg); /* Rotación inicial */
+  }
+  100% {
+    transform: rotate(360deg); /* Rotación final */
+  }
+}
+
+@keyframes moveAnimation {
+  0% {
+    left: 1000px;
+  }
+  80% {
+    left: 200px;
+  }
+  90% {
+    left: 20px;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}

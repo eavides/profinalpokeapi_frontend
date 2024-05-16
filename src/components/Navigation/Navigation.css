@@ -1,0 +1,33 @@
+.formContainer {
+  display: grid;
+  grid-template-areas: "input btn";
+  grid-template-columns: min-content min-content;
+  justify-content: center;
+}
+
+.formContainer__input {
+  grid-area: input;
+  width: 350px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  justify-self: end;
+  margin-right: 10px;
+  outline: none;
+}
+
+.formContainer__btn {
+  grid-area: btn;
+  width: 150px;
+  height: 40px;
+  background-color: #2f71e5;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  outline: none;
+  cursor: pointer;
+}
+
+.formContainer__btn:hover {
+  background-color: #0255e5;
+}

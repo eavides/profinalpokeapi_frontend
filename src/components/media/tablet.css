@@ -1,0 +1,61 @@
+@media screen and (min-width: 700px) and (max-width: 870px) {
+  .grid__card {
+    gap: 10px;
+    margin: 5px 5px 5px 5px;
+    max-width: 230px;
+    min-width: 50px;
+    max-height: 390px;
+  }
+  .grid__card-image {
+    margin: 5px 5px 5px 5px;
+    width: 220px;
+    height: 220px;
+  }
+  .grid__card-description {
+    font-size: 13px;
+  }
+  .formContainer {
+    margin-bottom: 20px;
+  }
+  .btnContainer {
+    max-width: 100px;
+    max-height: 20px;
+  }
+  .btnContainer__more {
+    width: 100px;
+    height: 20px;
+  }
+  .infoPopup__container {
+    top: 10px;
+    left: 20px;
+    max-width: 90%;
+  }
+  .infoPopup__header_name {
+    grid-area: name;
+    letter-spacing: 30px;
+    color: rgb(113, 233, 173);
+  }
+  .infoPopup__header_number {
+    font-size: 14px;
+  }
+  .infoPopup__header_height {
+    font-size: large;
+  }
+  .infoPopup__header_weight {
+    font-size: large;
+  }
+
+  .infoPopup__cont {
+    max-width: 680px;
+    min-width: 380px;
+  }
+
+  .infoPopup__statistic {
+    max-width: 680px;
+    min-width: 200px;
+    max-height: 200px;
+  }
+  .infoPopup__statTitle {
+    letter-spacing: 5px;
+  }
+}

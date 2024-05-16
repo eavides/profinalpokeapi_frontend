@@ -1,0 +1,95 @@
+/* .menu {
+  position: fixed;
+  top: 180px;
+  background-color: black;
+  max-width: 200px;
+  max-height: 400px;
+}
+.menu__inicio {
+  max-width: 200px;
+  max-height: 400px;
+}
+.menu__option {
+  display: grid;
+  max-width: 350px;
+  max-height: 350px;
+}
+.menu-toggle {
+  display: grid;
+  justify-self: center;
+  max-width: 150px;
+  max-height: 150px;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+.menu__refe {
+  justify-self: center;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__close {
+  visibility: hidden;
+}
+
+
+.menu-toggle__open {
+  visibility: visible;
+}
+
+
+@media screen and (max-width: 768px) {
+  .menu {
+    max-height: 0; 
+  }
+
+  .menu-toggle {
+    display: block; 
+    cursor: pointer;
+  }
+} */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.menu__options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.menu__option {
+  margin-right: 20px;
+  text-decoration: none;
+}
+.menu__option a {
+  text-decoration: none;
+}
+
+.menu__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.menu.open .menu-toggle {
+  display: none;
+}
+.menu__close {
+  visibility: hidden;
+}
+
+.menu-toggle__open {
+  visibility: visible;
+}

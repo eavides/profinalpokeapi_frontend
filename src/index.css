@@ -1,0 +1,24 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+@import url("../src/font/InterWeb/inter.css");
+@import url("../src/normalize.css");
+@import url("./components/Header/Header.css");
+@import url("./components/Menu/Menu.css");
+@import url("./components/Cards/Card.css");
+@import url("./components/Main/Main.css");
+@import url("./components/Navigation/Navigation.css");
+@import url("./components/InfoPopup/InfoPopup.css");
+@import url("./components/media/mobile.css");
+@import url("./components/media/tablet.css");
+@import url("./components/LoadMore/LoadMore.css");

@@ -1,0 +1,84 @@
+@media screen and (min-width: 320px) and (max-width: 699px) {
+  .grid__container {
+    display: grid;
+    grid-template-columns: min-content min-content;
+    gap: 5px;
+  }
+
+  .grid__card {
+    gap: 5px;
+    margin: 5px 5px 5px 5px;
+    max-width: 220px;
+    min-width: 50px;
+    max-height: 390px;
+  }
+  .grid__card-image {
+    margin: 5px 5px 5px 5px;
+    max-width: 220px;
+    min-width: 120px;
+    height: 220px;
+  }
+  .grid__card-description {
+    font-size: 13px;
+  }
+  .formContainer {
+    margin-bottom: 20px;
+  }
+  .btnContainer {
+    max-width: 100px;
+    max-height: 20px;
+  }
+  .btnContainer__more {
+    width: 100px;
+    height: 20px;
+  }
+  .infoPopup__container {
+    top: 10px;
+    left: 20px;
+    max-width: 90%;
+  }
+  .infoPopup__header_image {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .infoPopup__header_name {
+    letter-spacing: 10px;
+    font-size: 20px;
+  }
+  .infoPopup__header_number {
+    font-size: 10px;
+  }
+  .infoPopup__header_height {
+    font-size: 12px;
+  }
+  .infoPopup__header_weight {
+    font-size: 12px;
+  }
+
+  .infoPopup__cont {
+    max-width: 580px;
+    min-width: 380px;
+  }
+
+  .infoPopup__statistic {
+    max-width: 680px;
+    min-width: 200px;
+    max-height: 200px;
+  }
+  .infoPopup__statTitle {
+    letter-spacing: 5px;
+  }
+
+  .formContainer {
+    display: flex;
+  }
+  .formContainer__input {
+    width: 250px;
+    height: 40px;
+  }
+
+  .formContainer__btn {
+    width: 120px;
+    height: 40px;
+  }
+}

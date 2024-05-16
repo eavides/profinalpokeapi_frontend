@@ -1,0 +1,253 @@
+.grid__card {
+  gap: 20px;
+  margin: 20px 20px 20px 20px;
+  width: 400px;
+  min-width: 100px;
+  max-height: 490px;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(136, 238, 3, 0.5);
+}
+.grid__card-image {
+  margin: 20px 20px 20px 20px;
+  width: 360px;
+  height: 272px;
+  object-fit: fill;
+  cursor: pointer;
+}
+.grid__card-description {
+  display: grid;
+  justify-content: center;
+}
+.grid__card-group {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "name name"
+    "type type"
+    "label label";
+  padding: 10px 10px 10px 10px;
+}
+.grid__card-title {
+  margin: 0;
+  color: rgb(113, 233, 173);
+  text-align: left;
+  letter-spacing: 5px;
+}
+.grid__card-name {
+  margin: 0;
+  grid-area: name;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.grid__card-type {
+  margin: 0;
+
+  color: white;
+}
+
+.grid__card-sectype {
+  margin: 0;
+  color: white;
+  grid-area: sectype;
+}
+.card__types {
+  grid-area: type;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.card__labels {
+  grid-area: label;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card__types span {
+  display: flex;
+  align-items: flex-start;
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: transparent;
+  font-weight: bold;
+}
+
+.card__labels span {
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-image: none;
+  color: white;
+}
+
+.water {
+  background-image: url("../../images/water.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.grass {
+  background-image: url("../../images/grass.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.poison {
+  background-image: url("../../images/poison.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.fire {
+  background-image: url("../../images/fire.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.bug {
+  background-image: url("../../images/bug.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.dragon {
+  background-image: url("../../images/dragon.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.flying {
+  background-image: url("../../images/flying.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.ground {
+  background-image: url("../../images/ground.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.steel {
+  background-image: url("../../images/steel.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.psychic {
+  background-image: url("../../images/psychic.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.ice {
+  background-image: url("../../images/ice.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.ghost {
+  background-image: url("../../images/ghost.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.normal {
+  background-image: url("../../images/normal.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.rock {
+  background-image: url("../../images/rock.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.electric {
+  background-image: url("../../images/electric.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.fighting {
+  background-image: url("../../images/fighting.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.fairy {
+  background-image: url("../../images/fairy.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.dark {
+  background-image: url("../../images/dark.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
